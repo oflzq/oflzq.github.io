@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>lzq</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="IT learning">
+<meta property="og:type" content="website">
+<meta property="og:title" content="lzq">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="lzq">
+<meta property="og:description" content="IT learning">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="lzq">
+<meta name="twitter:description" content="IT learning">
+  
+    <link rel="alternate" href="/atom.xml" title="lzq" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">lzq</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">my love</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-jsday2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/25/jsday2/" class="article-date">
+  <time datetime="2016-12-25T13:37:15.000Z" itemprop="datePublished">2016-12-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/25/jsday2/">jsday2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>目标：<br>(1)    表达式<br>(2)    运算符<br>(3)    函数</p>
+<p>1.运算符的分类<br> (1)单目运算符        -a     b++    !c<br> (2)双目运算符        a+b    a&gt;b<br> (3)三目运算符        a?b:c</p>
+<p>2.算术运算符——单目/双目<br>    +<br>    -：减法、取负值<br>    *<br>    /<br>    %:    判断是否能整除、数据分组<br>    ++   i++先取值再自加  ++i先自加再取值<br>–    i–    –i</p>
+<p>3.关系运算符</p>
+<pre><code>&gt;        number和string比较时，自动把string解析为number
+&lt;
+&gt;=
+&lt;=
+==        number和string比较时，自动把string解析为number
+!=        number和string比较时，自动把string解析为number
+===        只有类型、值都相同，才判定为true
+!==        只要类型或值有一项不同，即判定为true
+</code></pre><p>4.逻辑运算<br>    &amp;&amp;        与、并且<br>    ||        或、或者、要么…要么<br>    ！        非、取反</p>
+<p>5.条件运算符——三目<br>    表达式1 ? 表达式2 : 表达式3<br>要求：要求表达式1必须是boolean或者能自动转换为boolean；2和3则无所谓。含义：“如果式1为true，则整个表达式的为式2的值；否则整个表达式的为式3的值”</p>
+<p>6补充运算符：<br>    typeof:  用于判定变量的类型    typeof  age    typeof(age+1)<br>            number、string、boolean、object、null、undefined<br>    instanceof： —-<br>    delete：—-    delete(obj.name)</p>
+<p>7.函数：<br>概念：一个可以包含多条语句功能体，完成特定的功能。一个函数是一个封闭的空间，其中定义的变量只能在函数体中使用。<br>定义：function  函数名( [形式参数] ){<br>            //执行语句;<br>            [return 值;]<br>        }<br>调用：var 接收返回值的变量名 = 函数名([实际参数]);</p>
+<p>8.作用域<br>    变量、函数、对象可以在一个特定的范围内使用，离开此范围，可能就无效，此范围就称为“作用域”</p>
+<p>9.函数的递归调用<br>    递归调用/嵌套调用：在函数里调用自己<br>    经典递归问题：汉诺塔问题</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/12/25/jsday2/" data-id="cix6939bb000148g1icjpfugd" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js自学/">js自学</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-jsday1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/24/jsday1/" class="article-date">
+  <time datetime="2016-12-24T15:26:04.000Z" itemprop="datePublished">2016-12-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/24/jsday1/">jsday1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>JavaScript<br>网页 = 内容/结构 + 表现/样式 + 行为/动作</p>
+<p>1.JS的历史和发展<br>  浏览器的核心：内容渲染引擎 + 脚本解释引擎<br>  常见的浏览器的核心：<br>(1)    IE的核心：Trident(双引擎)<br>(2)    Chrome的核心：Webkit(渲染引擎)+V8(脚本解释)<br>(3)    Safari的核心：Webkit(双引擎)<br>(4)    Opera的核心：Presto(双引擎-o-) / Webkit(双引擎)<br>(5)    Firefox的核心：Gecko(双引擎)<br>  Netscape Navigator – Mozilla Firefox(Gecko)<br>  Microsoft IE<br>  JS由三部分组成：<br>    核心——由ECMAScript标准制定，可以运行在任何js引擎中，不光可以编写客户端脚本，还可以编写服务器端脚本(NodeJS)、编写桌面应用程序、网络程序<br>    DOM——将JS嵌入在网页中操作HTML标签<br>    BOM——使用JS与浏览器宿主进行交互</p>
+<p>2.JavaScript运行环境搭建<br>  (1)方式一：安装一个独立JS解释器——V8(NodeJS)<br>        可以交互式执行；<br>也可以批量的执行多条语句(需要编写.js文件中)<br>  (2)方式二：使用浏览器内嵌JS解释器<br>        直接在控制台输入中一行一行的输入并执行脚本；<br>        把JavaScript语句混排在HTML中，让浏览器解释执行整个HTML文件<br>            <script></script>直接嵌入在BODY中执行<br>            <script></script>嵌入在HEAD中，其中定义函数，页面元素的某个事件发生时调用该函数<br>            JavaScript编写在外部.js文件中，HTML中使用<script src="”.js文件的路径”"></script>引用外部js文件；页面元素的某个事件发生时调用外部js中定义的函数</p>
+<p>3．代码的调试<br>  《调试的艺术》</p>
+<p>核心JS——ECMAScript，可以运行浏览器/单纯的JS引擎<br>    console.log(‘hello’);<br>DOM——操作HTML，需要浏览器<br>    document.write(‘<hr>’);<br>BOM——与浏览器交互，需要浏览器<br>    window.alert(‘用户名已存在！请重试！’);    //弹出一个警告框<br>    window.prompt(‘请输入用户名：’);        //弹出一个输入提示框<br>    window.confirm(‘您确定要关闭当前页面吗？’);    //弹出一个确认框<br>4.注释<br>    HTML:       <!--    --><br>    CSS:         /<em>  color: red;  </em>/<br>    JavaScript:    /<em> 多行注释 </em>/            //单行注释<br>5.JavaScript中定义变量和常量<br> 常量：值固定不能改变的量，JS与其它语言不同，没有关键字可用于自定义常量<br>        ‘用户名错误’ —— 字符串常量<br>        3.1415926 —— 数字常量<br> 变量：值可以改变的量，如下格式：<br>        var 变量名;            //Variable<br>        var 变量名 = 值;<br> 变量名的命名规则：<br>(1)    变量名不能使用关键字/保留字<br>(2)    变量名中可以包含数字、字母、下划线、$、或其他的Unicode字符(如中文)，不能以数字开头；不能包含标点符号。<br>(3)    变量名最好做到见名知义， 如x = 10; y = ‘ABC’;不好<br>(4)    变量名推荐使用下述三种规则之一：<br>a)    匈牙利命名法，用一个/多个表示类型的字母开头，如  sUserName、iAge、bIsMarried、oBirthday、eManager、wLogout;<br>b)    下划线命名法，用_分隔多个单词，如user_name、is_married、manager_name、our_class_monitor_name<br>c)    小驼峰命名法，用首字母的大写区分多个单词，如userName、changeRate、empFirstName、studentName<br>d)    大驼峰命名法，每个单词首字母都大写，如UserName、EmpLastName</p>
+<p>变量的使用：<br>(1)    重新修改变量的值——写操作<br>(2)    获取变量的当前值——读操作<br>6.JavaScript中的数据类型——重点<br>    (1)基本类型/简单类型/值类型：number、string、boolean<br>    (2)特殊类型：null、undefined<br>    (3)复杂类型/引用类型：object、function<br>7.基本类型：string<br>    字符编码：计算机只能处理数字(10101001)，每个字符可以分配一个唯一的数字与之对应。<br>ASCII:  使用8个bit的二进制数来表示一个字符，最多表示256个字符<br>Unicode：使用16个bit的二进制数来表示一个字符，最多表示65536个字符<br>(1)</p>
+<p>常见的转义字符：<br>    \n        表示换行<br>    \t        表示水平制表符(tab键)<br>    \        表示一个\<br>    \’        表示一个单引号<br>    \”        表示一个双引号<br>    \u        后面跟四个十六进制数(Unicode码)<br>8．基本类型：number<br>    JS中的数字不区分整型、浮点型，底层保存时都使用64位的浮点型保存。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/12/24/jsday1/" data-id="cix6939b1000048g1ub2wleub" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js自学/">js自学</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/js自学/" style="font-size: 10px;">js自学</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/12/25/jsday2/">jsday2</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/24/jsday1/">jsday1</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 lzq<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
