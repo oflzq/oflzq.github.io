@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="refresh" content="5;url=http://www.sangfor.com.cn">
+<title>深信服科技</title>
+<style>
+*{ padding:0; margin:0;}
+body { background-color:#F1F1F1; font-size:12px; color:#666; line-height:20px;}
+a { text-decoration:none; color:#666;}
+ul,li { list-style:none;}
+.fl { float:left;}
+.fr { float:right;}
+.cl:after {display:block;clear:both;height:0;overflow:hidden;visibility:hidden;content:".";}
+.cl {clear:both;*zoom:1;}
+
+
+#main { width:900px; height:360px; padding:20px; margin:100px auto 0; background-color:#fff; border:1px solid #ccc; border-radius:10px;}
+#main div.fl { width:462px; height:320px; padding:40px 0 0 10px; border-right:1px solid #c4c9ce;}
+.search { padding:50px 0 0 30px;}
+.search input { border-radius:5px;}
+.search input.inp_srh { width:248px; height:26px; padding:0 6px; color:#666;}
+.search input.btn_soso { width:100px; height:28px; background-color:#ec8427; border:none; border-radius:5px; font-size:14px; color:#fff; text-shadow:1px 1px 2px #666; cursor:pointer; box-shadow:1px 1px 3px #ccc;}
+
+#main div.fr { width:410px; padding:10px 0 0; }
+#main div.fr h3 { font:16px "微软雅黑"; color:#333; line-height:40px;}
+#main div.fr p { text-indent:2em; margin-bottom:10px;}
+#main div.fl p { text-indent:2em; text-align: left;}
+.nav li { width:196px; border-bottom:1px solid #ccc;}
+.nav li a { padding-left:12px; line-height:30px;}
+.nav li a:hover { color:#ec8427;}
+
+.logo { display:block; width:160px;}
+.logo img { display:block; width:100%;}
+
+.main{text-align:center; margin:75px 0 0 0; font:normal normal 14px/1.8em normal;}
+.error_img{margin:0 0 20px 0;}
+</style>
+</head>
+<body>
+<div id="main" class="cl">
+	<div class="fl">
+	<img src="http://www.sangfor.com.cn/file/404_Tu.jpg" />  
+    <P>如需要升级服务，请致电400-630-6430，我们将在验证您的服务有效期后为您提供产品升级服务。如果您的产品服务已过期，请与您的产品供应商联系，续签服务后即可进行升级</p>
+    <p></p>
+    </div>
+	<div class="fr">
+    	<h3>深圳市深信服电子科技有限公司</h3>
+        <p>深信服科技有限公司于2000年成立于深圳，目前有1800名员工，在全球有55个直属分支机构。2013年，销售额接近10个亿，是中国规模最大、创新能力最强的前沿网络厂商。十四年来，深信服一直致力于提供创新的网络产品，并专注于网络安全、网络优化和虚拟化领域。产品涵盖上网行为管理、IPSEC/SSL VPN、下一代防火墙、应用交付、广域网优化、企业级WLAN、应用虚拟化、以及桌面虚拟化等</p>
+        <h3>产品快速导航</h3>
+        <div class="nav cl">
+            <ul class="fl">
+            <li><a href="http://www.sangfor.com.cn/">深信服首页</a></li>
+            <li><a href="http://www.sangfor.com.cn/product/ac/outline.html">上网行为管理</a></li>
+            <li><a href="http://www.sangfor.com.cn/product/ngaf/outline.html">下一代防火墙</a></li>
+            <li><a href="http://www.sangfor.com.cn/product/ssl_vpn/outline.html">SSL vpn</a></li>
+            <li><a href="http://www.sangfor.com.cn/product/ipsec_vpn/outline.html">IPSec vpn</a></li>
+            </ul>
+            <ul class="fr">
+            	<li><a href="http://www.sangfor.com.cn/topic/cloud/">桌面云</a></li>
+                <li><a href="http://www.sangfor.com.cn/topic/wlan/">企业级无线</a></li>
+                <li><a href="http://www.sangfor.com.cn/product/wan_optimization/outline.html">广域网优化</a></li>
+                <li><a href="http://www.sangfor.com.cn/product/ad/outline.html">应用交付</a></li>
+              
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
